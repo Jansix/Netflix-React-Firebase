@@ -43,7 +43,7 @@ function Navbar() {
           </Link>
           <Link to="/signup">
             <button className="bg-red-600 px-6 py-4 rounded cursor-pointer text-white">
-              Sing Up
+              Sign up
             </button>
           </Link>
         </div>

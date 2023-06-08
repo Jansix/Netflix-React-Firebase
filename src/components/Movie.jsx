@@ -38,7 +38,7 @@ function Movie({ item, id }) {
         }),
       });
     } else {
-      alert("請新增一些影片");
+      alert("請先登入帳號");
     }
   };
 

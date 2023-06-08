@@ -22,6 +22,7 @@ function Signup() {
     <>
       <div className="w-full h-screen">
         <img
+          alt="/"
           className="hidden sm:block absolute w-full h-full object-cover"
           src="https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/1c2743b4-68cd-4fa1-b730-b683517e09e3/TW-zh-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg"
         />
@@ -29,7 +30,7 @@ function Signup() {
         <div className="fixed w-full px-4 py-24 z-50">
           <div className="max-w-[450px] h-[600px] mx-auto bg-black/75 text-white">
             <div className="max-w-[320px] mx-auto py-16">
-              <h1 className="text-3xl font-bold">Sin Up</h1>
+              <h1 className="text-3xl font-bold">Sign Up</h1>
               <form
                 onSubmit={handleSubmit}
                 className="w-full flex flex-col py-4"
@@ -49,7 +50,7 @@ function Signup() {
                   className="p-3 my-2 bg-gray-700 rounded"
                 />
                 <button className="bg-red-600 py-3 my-6 rounded font-bold">
-                  Sing Up
+                  sign up
                 </button>
                 <div className="flex justify-between items-center text-sm text-gray-600">
                   <p>
