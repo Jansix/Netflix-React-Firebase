@@ -39,14 +39,12 @@ function Signup() {
                   onChange={(e) => setEmail(e.target.value)}
                   type="email"
                   placeholder="email"
-                  autoComplete="email"
                   className="p-3 my-2 bg-gray-700 rounded"
                 />
                 <input
                   onChange={(e) => setPassword(e.target.value)}
                   type="password"
                   placeholder="password"
-                  autoCorrect="current-password"
                   className="p-3 my-2 bg-gray-700 rounded"
                 />
                 <button className="bg-red-600 py-3 my-6 rounded font-bold">
